@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openOptions (View v){
-        //Intent intent = new Intent(this, OpcoesActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, OptionsActivity.class);
+        startActivity(intent);
     }
 
 
