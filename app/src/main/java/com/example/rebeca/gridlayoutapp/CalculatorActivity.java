@@ -7,6 +7,9 @@ import android.widget.GridLayout;
 import android.graphics.*;
 import android.widget.*;
 
+/**
+ * Classe apenas de visualização; para os cálculos se fazem necessários o uso de gridviews e adapters.
+ */
 public class CalculatorActivity extends AppCompatActivity {
 
     String[] buttonTexts = new String[]
